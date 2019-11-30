@@ -1,0 +1,198 @@
+
+body {
+    background-color: lightgrey;
+  }
+
+
+  .clearfix:after{
+content: " ";
+display: block;
+clear: both;
+  }
+
+.topnav {
+  margin-block: center;
+  position: relative;
+     border-color: #666666;
+    width: 960px;
+    margin: auto;
+    top: 20px;
+    height: 50px;
+  }
+
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #0c0c0c;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+       margin-top: 20px;
+     }
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color:lightgoldenrodyellow;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4aaaa5;
+    color: white;
+      }
+
+
+  .name{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    position: relative;
+    text-align: left;
+    color:#ffffff;
+    background-color:#4aaaa5;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    float:left;
+    
+      }
+
+/* Header and font styles */
+  h1{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    top:25;
+    left:0;
+    width: 30%;
+    height: 40px;
+    position: relative;
+    color:#4aaaa5;
+    padding-left: 5px;
+        
+  }
+
+/* profile image*/
+
+.img{
+
+    float: left;
+    margin-left:0px;
+    margin-right: 10px;
+
+}/*content box*/
+  .content{
+    position: relative;
+    background-color:#ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+    text-align: left;
+    width: 960px;
+    top: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+
+p{   
+
+  margin-left: 10px;
+  margin-right:10px;
+}
+
+  /*header*/
+  .header{
+    background-color:#ffffff;
+    position: relative;
+    top: 0;
+    width: 960px;
+    height: 5.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0;
+            
+  }
+
+
+  .headerspacer{
+    position: absolute;
+background-color:#ffffff;
+width:100%;
+height: 5.9rem;
+top:0;
+left:0;
+z-index: -1;
+  }
+
+
+
+  /* Footer */
+ 
+  .footer{
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 2.5rem;    
+  }
+
+
+/*contact form styles ----used in contact.html*/
+  #contactform{
+    position: relative;
+    padding-top: 25px;
+width: 75%;
+margin:auto;
+
+  }
+
+  .button_css
+{
+  background-color: #4aaaa5;
+  color: white;
+  height: 30px;
+}
+
+/*styles ----used in Portfolio.html*/
+* {
+  box-sizing: border-box;
+}
+
+
+#boxcontainer::after {
+  background-color: cornflowerblue;
+height: 300px;
+content: "";
+clear: both;
+display: table;
+
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#lblpic{
+background-color:#4aaaa5;
+color: #ffffff;
+height: 40px;
+text-align:center;
+margin:auto;
+font-size: 25px;
+position: absolute;
+bottom: 5%;
+width:32.2%;
+padding-top: 5px;
+
+}
+
